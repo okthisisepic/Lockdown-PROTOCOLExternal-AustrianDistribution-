@@ -1396,7 +1396,7 @@ void menu::draw()
 						int ammo = bag_state.Value_8;
 
 						ImGui::SetNextItemWidth(ImGui::GetContentRegionAvail().x);
-						if (ImGui::SliderInt("##BagAmmo", &ammo, 0, 100, "Ammo: %d%")) {
+						if (ImGui::SliderInt("##BagAmmo", &ammo, 0, 500, "Ammo: %d%")) {
 							bag_state.Value_8 = ammo;
 							local_mec->set_bag_state(bag_state);
 						}
