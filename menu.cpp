@@ -1564,7 +1564,7 @@ void menu::draw()
 					ImGui::ColorEdit4("FOV Color", (float*)&fov_color, ImGuiColorEditFlags_AlphaBar);
 				}
 
-				//ImGui::Checkbox("Rainbow Suit", &rainbowsuit);
+				ImGui::Checkbox("Rainbow Suit", &rainbowsuit);
 			}
 			ImGui::EndChild();
 
