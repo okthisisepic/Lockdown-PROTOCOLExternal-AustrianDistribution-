@@ -331,7 +331,7 @@ static void cache_useful() {
 }
 
 inline void StartRainbowSuitThread() {
-	
+	/*
 	static bool thread_started = false;
 	if (thread_started) return;
 	thread_started = true;
@@ -370,7 +370,7 @@ inline void StartRainbowSuitThread() {
 			std::this_thread::sleep_for(std::chrono::milliseconds(rainbow_speed));
 		}
 		}).detach();
-		
+		*/
 }
 
 static void render_callback() {
